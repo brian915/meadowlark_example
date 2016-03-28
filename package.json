@@ -2,6 +2,7 @@
   "name": "meadowlark",
   "version": "1.0.0",
   "description": "experimental express app",
+  "repository":  "git@github.com:brian915/meadowlark_examples",
   "main": "meadowlark.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
   "dependencies": {
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.5.0",
   }
 }
